@@ -12,8 +12,3 @@
 #' check_assumptions(data$height, data$weight)
 #' 
 
-# Create Linear Model
-
-# Assess Fit
-
-#Plotting Functions
