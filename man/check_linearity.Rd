@@ -15,9 +15,10 @@ check_linearity(col1, col2)
 the estimated correlation coefficient
 }
 \description{
-returns the Spearman correlation coefficient between two quantitative
-variables. If your correlation coefficient is close to |1|,
-then that indicates a strong linear relationship.
+Checks the assumption of linearity by calculating the Spearman
+correlation coefficient between two quantitative variables.
+If your correlation coefficient is close to |1|, then that
+indicates a strong linear relationship.
 }
 \examples{
 check_linearity(data$height, data$weight)
