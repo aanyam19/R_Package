@@ -9,6 +9,7 @@
 #' 
 #' @return Returns multiple R-squared
 #' 
+#' @export
 R_squared <- function(predictor, response){
   #Error message: if inputs are not same length
   if(length(predictor) != length(response)){
