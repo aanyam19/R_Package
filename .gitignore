@@ -403,3 +403,5 @@ __pycache__/
 # OpenCover UI analysis results
 OpenCover/
 .Rproj.user
+/doc/
+/Meta/
