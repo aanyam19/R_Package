@@ -13,8 +13,7 @@
 R_squared <- function(predictor, response){
   #Error message: if inputs are not same length
   if(length(predictor) != length(response)){
-    return("Input vectors must be of the same length!")
-    break
+    stop("Input vectors must be of the same length!")
   }
   
   #Define columns of values needed for calculation
